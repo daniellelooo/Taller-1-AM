@@ -1,0 +1,34 @@
+/* Nivel 1 */
+
+#water {
+grid-column-start: 3;
+}
+
+/* Nivel 2 */
+
+#poison {
+grid-column-start: 5;
+}
+
+/* Nivel 3 */
+#water {
+  grid-column-start: 1;
+grid-column-end: 4;
+}
+
+/* Nivel 4 */
+#water {
+  grid-column-start: 5;
+grid-column-end: 2;
+}
+
+/* Nivel 5 */
+#water {
+  grid-column-start: 1;
+grid-column-end: 5;
+}
+
+/* Nivel 6 */
+#poison {
+grid-column-start: -3;
+}
