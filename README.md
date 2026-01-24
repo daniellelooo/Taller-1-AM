@@ -1,15 +1,8 @@
-# Taller #1
+# Retos JavaScript
 
-## Estructura de Ramas
+## Carpetas
 
-- **css**: Retos de CSS Diner
-- **flexbox**: Retos de Flexbox Froggy
-- **gridlayout**: Retos de Grid Garden
-- **reto**: Retos de JavaScript (carpetas: "clave, menu, anim, texto")
-- **proyecto**: Proyecto de maquetación
-
-## Integrantes
-
-- Daniel David Léon López
-- Geronimo Gaviria Castaneda
-- Federico Marquez Calle
+- **clave**: Teclado de clave bancaria
+- **menu**: Menú con navegación scroll
+- **anim**: Animación con sonido
+- **texto**: Contador de caracteres en tiempo real
