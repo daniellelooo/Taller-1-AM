@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #29292f 0%, #000000 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.card {
+  background: rgba(30, 30, 46, 0.9);
+  border: 2px solid #40e0d0;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(64, 224, 208, 0.2);
+  text-align: center;
+  min-width: 400px;
+  backdrop-filter: blur(10px);
+}
+
+.card h2 {
+  color: #40e0d0;
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-shadow: 0 0 10px rgba(64, 224, 208, 0.5);
+}
+
+#texto {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #40e0d0;
+  border-radius: 10px;
+  background: rgba(22, 33, 62, 0.8);
+  color: #40e0d0;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+#texto::placeholder {
+  color: rgba(64, 224, 208, 0.5);
+}
+
+#texto:focus {
+  border-color: #5ffbd7;
+  box-shadow: 0 0 15px rgba(64, 224, 208, 0.4);
+  background: rgba(22, 33, 62, 0.95);
+}
+
+.contador-texto {
+  font-size: 20px;
+  color: #b8b8d0;
+  margin-top: 20px;
+}
+
+#contador {
+  color: #40e0d0;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(64, 224, 208, 0.6);
+  display: inline-block;
+  min-width: 50px;
+}
