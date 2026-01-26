@@ -1,6 +1,6 @@
 let clave = '';
 const longitudMaxima = 4;
-const claveCorrecta = '1234'; // Clave correcta de ejemplo
+const claveCorrecta = '1234'; 
 
 const puntos = document.querySelectorAll('.dot');
 const teclas = document.querySelectorAll('.key');
