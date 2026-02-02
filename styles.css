@@ -18,6 +18,7 @@ body {
     line-height: 1.6;
     color: var(--black);
     background-color: var(--white);
+    overflow-x: hidden;
 }
 
 .container {
@@ -211,6 +212,8 @@ body {
     cursor: grab;
     user-select: none;
     scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .hero-slider:active {
@@ -218,7 +221,7 @@ body {
 }
 
 .hero-slider::-webkit-scrollbar {
-    display: none;
+    display: none;  /* Chrome, Safari and Opera */
 }
 
 .hero-slide {
