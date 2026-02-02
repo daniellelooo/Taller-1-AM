@@ -6,7 +6,7 @@ const puntos = document.querySelectorAll('.dot');
 const teclas = document.querySelectorAll('.key');
 const elementoMensaje = document.getElementById('message');
 
-// Agregar evento click a cada tecla
+
 teclas.forEach(tecla => {
     tecla.addEventListener('click', () => {
         const valor = tecla.getAttribute('data-value');
